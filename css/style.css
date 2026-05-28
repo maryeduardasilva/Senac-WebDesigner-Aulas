@@ -1,0 +1,77 @@
+*{
+    margin: 0; /* o margin afasta outras coisas do componente, o padding afasta o conteúdo do componente */
+    padding: 0; /* o padding afasta as coisas dentro do componente*/
+    box-sizing: border-box; /*Impede que o margin e o padding não deixem passa para fora do componente, ou seja, o componente não aumenta de tamanho por causa do margin e do padding*/
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d0f7eb;
+}
+
+
+header{
+    width: 80vw;
+    height: 25vh;
+    margin: auto;
+    background-color: antiquewhite;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    border-radius: 50px;
+    box-shadow: 0 0 5px 10px rgba(7, 11, 29, 0.205); /*esquerda, em cima, lado direito, embaixo - cor da sombra*/
+    text-align: center; /*alinha o texto ao centro*/
+}
+
+
+#nomeEmpresa{
+    color: teal;
+    font-size: 54px;
+    margin: auto;
+}
+
+.navbar ul{ /* dentro da classe navbar ele vai entrar dentro da ul como se fosse o caminho*/
+    list-style: none; /*remove os marcadores da lista*/
+}
+
+
+.navbar ul li{ /*dentro da classe navbar ele vai entrar dentro da ul e depois dentro do li*/
+    display: inline-block; /*deixa os itens da lista na mesma linha*/
+    margin-right: 50px; /*espaçamento entre os itens da lista*/
+}
+
+.link_navbar {
+    display: block; /*deixa o link como um bloco, ou seja, ele ocupa toda a largura disponível*/
+    color: teal; /*cor do link*/
+    text-decoration: none; /*remove o sublinhado do link*/
+    padding: 20px;
+    transition: all ease-in-out 0.3s;
+    transform: translateX(-2px) translateY(-2px);
+    border-radius: 20px;
+
+}
+
+.link_navbar:hover{ /*quando o mouse passar por cima do link*/
+    background-color: rgb(7, 48, 4); ; /*cor de fundo do link quando o mouse passar por cima*/
+    color: antiquewhite; /*cor do link quando o mouse passar por cima*/
+    transition: all ease-in-out 0.3s; /*tempo de transição para a mudança de cor*/
+    transform: translateX(2px) translateY(2px); /*move o link 2px para a direita e 2px para baixo quando o mouse passar por cima*/
+    cursor: pointer; /*muda o cursor para uma mãozinha quando o mouse passar por cima do link*/
+}
+.container{
+    width: 80vw;
+    height: 80vh;
+    background-color: rgb(2, 119, 61);
+    color: antiquewhite; /*cor do texto*/
+    line-height: 3.6; /*espaçamento de linha*/
+
+    /*
+       unidades de tamanho: px, em, rem, %, vw, vh
+       px: pixels, unidade fixa, não muda com o tamanho da tela
+       em: unidade relativa ao tamanho da fonte do elemento pai, 1em é igual ao tamanho da fonte do elemento pai
+       rem: unidade relativa ao tamanho da fonte do elemento raiz (html), 1rem é igual ao tamanho da fonte do elemento raiz 1rem = 16px por padrão
+       %: porcentagem, relativa ao tamanho do elemento pai, 100% é igual ao tamanho do elemento pai
+       vw: viewport width, unidade relativa à largura da janela de visualização, 1vw é igual a 1% da largura da janela de visualização
+       vh: viewport height, unidade relativa à altura da janela de visualização, 1vh é igual a 1% da altura da janela de visualização
+    */
+}
