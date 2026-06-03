@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+header{
+    width: 100vw;
+    height: 18vh;
+
+}
+
+.container1{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(75, 236, 11);
+    display: flex; /*ele deixa os elementos filhos em linha, um do lado do outro*/
+    justify-content: center; /*só funciona com o display flex ou grid, ele alinha em horizontal*/
+    align-items: center; /* só funciona com o display flex ou grid, ele alinha em vertical*/
+}
+
+.card{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    margin: 5px;
+}

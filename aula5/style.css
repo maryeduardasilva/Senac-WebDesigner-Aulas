@@ -25,7 +25,7 @@ nav{
     background-color:gray;
     width: 18vw;
     height: 60vh;
-    position: relative;
+    position: relative; /*position relative aqui faz a base para o posicionamento dos elementos filhos, como o aside, que pode ser posicionado em relação a esse elemento. */
     float: left;
 }
 
