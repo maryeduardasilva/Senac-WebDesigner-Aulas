@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+header {
+    background-color: black;
+    width: 100vw;
+    height: 20vh;
+    position: relative; /*poition relative significa que o elemento pode ser posicionado em relação a sua posição normal, ou seja, onde ele estaria se não tivesse sido posicionado. Ele é usado para criar um contexto de posicionamento para elementos filhos que usam position absolute.*/
+    clear: left;
+}
+
+nav{
+    background-color: darkblue;
+    width: 100vw;
+    height: 5vh;
+    position: relative;
+    clear: left; /* isso faz com que o elemento seja posicionado abaixo de todos os elementos flutuantes anteriores, ou seja, ele "limpa" os elementos flutuantes anteriores e garante que o conteúdo do nav não fique ao lado de nenhum elemento flutuante anterior. */
+}
+
+#navbarLateral{
+    background-color:gray;
+    width: 18vw;
+    height: 60vh;
+    position: relative;
+    float: left;
+}
+
+main{
+    width: 60vw;
+    height: 60vh;
+    position: relative;
+    background-color: pink;
+    float: left;
+}
+
+#headerMain{
+    width: 80%;
+    height: 10%;
+    position: relative;
+    clear: left;
+    margin: auto;
+    margin-top:5px;
+}
+
+#principal{
+    width: 80%;
+    height: 30%;
+    position: relative;
+    clear: left;
+    margin: auto;
+    margin-top: 5px;
+    background-color: orange;
+}
+
+article{
+    width: 80%;
+    height: 30%;
+    position: relative;
+    clear: left;
+    margin: auto;
+    margin-top: 5px;
+    background-color: purple;
+}
+
+#container{
+    width: 80%;
+    height: 35%;
+    position: relative;
+    clear: left;
+    margin: auto;
+    background-color: aqua;
+}
+
+.card{
+    background-color: gray;
+    width: 30%;
+    height: 70%;
+    position: relative;
+    float: left; /* isso faz com que os elementos com a classe "card" sejam posicionados um ao lado do outro, em vez de serem empilhados verticalmente. */
+    margin: auto;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#card1{
+    background-color: blueviolet;
+}
+
+aside{
+    width: 20vw;
+    height: 60vh;
+    background-color: palevioletred;
+    position:relative;
+    float: left;
+}
+
+footer{
+    width: 100vw;
+    height: 15vh;
+    background-color: black;
+    position: relative;
+    clear: left;
+
+}
+

@@ -1,0 +1,147 @@
+/* Reset global - Remove margens e preenchimentos padrão de todos os elementos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header - Cabeçalho principal com fundo laranja, posicionado absolutamente */
+#header {
+  background-color: #ff9d00;
+  position: absolute;
+  width: 1000px;
+  height: 270px;
+  z-index: 1;
+  left: 250px;
+  top: 10px;
+}
+
+/* Barra branca - Barra de busca ou navegação dentro do header */
+#bar {
+  background-color: #ffffff;
+  position: absolute;
+  width: 600px;
+  height: 40px;
+  z-index: 2;
+  left: 430px;
+  top: 130px;
+}
+
+/* Botão - Elemento quadrado cinza escuro posicionado ao lado da barra */
+#button {
+  background-color: #3e3e3e;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  z-index: 3;
+  left: 990px;
+  top: 130px;
+}
+
+/* Cartão de navegação 1 - Primeira aba de navegação em cinza */
+.nav-card1 {
+  background-color: #6a6a6a;
+  position: absolute;
+  width: 180px;
+  height: 40px;
+  z-index: 5;
+  top: 300px;
+  left: 355px;
+}
+
+/* Cartão de navegação 2 - Segunda aba de navegação em cinza */
+.nav-card2 {
+  background-color: #6a6a6a;
+  position: absolute;
+  width: 180px;
+  height: 40px;
+  z-index: 5;
+  top: 300px;
+  left: 555px;
+}
+/* Cartão de navegação 3 - Terceira aba de navegação em cinza */
+.nav-card3 {
+  background-color: #6a6a6a;
+  position: absolute;
+  width: 180px;
+  height: 40px;
+  z-index: 5;
+  top: 300px;
+  left: 755px;
+}
+/* Cartão de navegação 4 - Quarta aba de navegação em cinza */
+.nav-card4 {
+  background-color: #6a6a6a;
+  position: absolute;
+  width: 180px;
+  height: 40px;
+  z-index: 5;
+  top: 300px;
+  left: 955px;
+}
+
+/* Cartão 1 - Card laranja na primeira posição da grade */
+#card1 {
+  background-color: #ff9d00;
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  z-index: 4;
+  top: 350px;
+  left: 355px;
+}
+
+/* Cartão 2 - Card cinza na segunda posição da grade */
+#card2 {
+  background-color: #6a6a6a;
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  z-index: 4;
+  top: 350px;
+  left: 555px;
+}
+
+/* Cartão 3 - Card azul claro na terceira posição da grade */
+#card3 {
+  background-color: #00bfff;
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  z-index: 4;
+  top: 350px;
+  left: 755px;
+}
+
+/* Cartão 4 - Card cinza na quarta posição, com altura maior que os outros */
+#card4 {
+  background-color: #6a6a6a;
+  position: absolute;
+  width: 180px;
+  height: 370px;
+  z-index: 4;
+  top: 350px;
+  left: 955px;
+}
+
+/* Cartão 5 - Card cinza na primeira posição da segunda linha */
+#card5 {
+  background-color: #6a6a6a;
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  z-index: 4;
+  top: 540px;
+  left: 355px;
+}
+
+/* Cartão 6 - Card laranja ocupando o espaço de dois cartões na segunda linha */
+#card6 {
+  background-color: #ff9d00;
+  position: absolute;
+  width: 380px;
+  height: 180px;
+  z-index: 4;
+  top: 540px;
+  left: 555px;
+}
