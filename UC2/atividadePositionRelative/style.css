@@ -1,0 +1,102 @@
+/*Css - Atividade Position Relative*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(222, 145, 238);
+    width: 99vw;
+    height: 20vh;
+    position: relative;
+    clear: left;
+}
+
+nav {
+    background-color: rgb(143, 0, 187);
+    width: 99vw;
+    height: 7vh;
+    position: relative;
+    clear: left;
+}
+
+#navBarLateral {
+    background-color: rgb(89, 59, 160);
+    width: 18vw;
+    height: 80vh;
+    position: relative;
+    float: left;
+}
+
+main {
+    width: 60vw;
+    height: 80vh;
+    position: relative;
+    background-color: pink;
+    float: left;
+}
+
+#headerMain {
+    width: 80%;
+    height: 10%;
+    position: relative;
+    clear: left;
+    margin: auto;
+    margin-top: 5px;
+}
+
+#principal {
+    width: 80%;
+    height: 30%;
+    position: relative;
+    clear: left;
+    margin: auto;
+    margin-top: 5px;
+    background-color: rgb(202, 2, 241);
+}
+
+article {
+    width: 80%;
+    height: 30%;
+    position: relative;
+    clear: left;
+    margin: auto;
+    margin-top: 5px;
+    background-color: rgb(202, 87, 236);
+    text-align: left;
+    color: rgb(24, 5, 32);
+}
+
+#container {
+    width: 80%;
+    height: 35%;
+    position: relative;
+    clear: left;
+    margin: auto;
+}
+
+.card {
+    background-color: rgb(89, 59, 160);
+    width: 30%;
+    height: 70%;
+    position: relative;
+    float: left;
+    margin: 10px;
+}
+
+aside {
+    background-color: rgb(143, 0, 187);
+    width: 21vw;
+    height: 80vh;
+    position: relative;
+    float: right;
+}
+
+footer {
+    background-color: rgb(222, 145, 238);
+    width: 99vw;
+    height: 10vh;
+    position: relative;
+    clear: left;
+}

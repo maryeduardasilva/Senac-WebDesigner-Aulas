@@ -1,0 +1,73 @@
+/*CSS da atividade position absolute - UC2*/
+
+/* Reset global - Remove margens e preenchimentos padrão de todos os elementos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header - Cabeçalho principal com fundo laranja, posicionado absolutamente */
+.header {
+  background-color: red;
+  position: absolute;
+  width: 900px;
+  height: 110px;
+  z-index: 1; /*isso é para o header ficar atrás dos outros blocos, o 1 significa que está atrás */
+  left: 300px;
+  top: 10px;
+  text-align: center; 
+  color: white;
+}
+
+.blocoAzul {
+    background-color: blue;
+    position: absolute;
+    width: 200px;
+    height: 110px;
+    z-index: 2; /*o 2 significa que o bloco azul fica na frente do header, mas atrás do bloco verde */
+    left: 300px;
+    top: 10px;
+    text-align: left;
+    color: white;
+}
+
+.blocoVerde {
+    background-color: green;
+    position: absolute;
+    width: 900px;
+    height: 50px;
+    z-index: 3;
+    left: 300px;
+    top: 120px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+}
+
+.blocoAmarelo {
+    background-color: yellow;
+    position: absolute;
+    width: 900px;
+    height: 550px;
+    z-index: 4;
+    left: 300px;
+    top: 170px;
+    line-height: 40px;
+    text-align: center;
+    border: 10px solid red;
+    color: rgb(0, 0, 0);
+}
+
+.footer {
+    background-color: rgb(90, 87, 87);
+    position: absolute;
+    width: 900px;
+    height: 50px;
+    z-index: 5;
+    left: 300px;
+    top: 720px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+}
