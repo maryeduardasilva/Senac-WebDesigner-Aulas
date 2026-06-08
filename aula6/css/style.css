@@ -1,28 +1,124 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     border: 0;
 }
 
-header{
+header {
+    background-color: lime;
     width: 100vw;
-    height: 18vh;
-
+    height: 20vh;
+    position: relative;
 }
 
-.container1{
-    width: 100vw;
-    height: 100vh;
-    background-color: rgb(75, 236, 11);
-    display: flex; /*ele deixa os elementos filhos em linha, um do lado do outro*/
-    justify-content: center; /*só funciona com o display flex ou grid, ele alinha em horizontal*/
-    align-items: center; /* só funciona com o display flex ou grid, ele alinha em vertical*/
+main {
+    background-color: coral;
 }
 
-.card{
-    width: 100px;
-    height: 100px;
-    background-color: white;
-    margin: 5px;
+.container1 {
+    background-color: red;
+    width: 100vw;
+    height: 60vh;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.card {
+    background-color: salmon;
+    width: 50%;
+    height: 50%;
+    position: relative;
+}
+
+.container2 {
+    background-color: aqua;
+    width: 100vw;
+    height: 60vh;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    justify-content: space-around;
+}
+
+.card2 {
+    background-color: rgb(255, 255, 255);
+    width: 15%;
+    height: 80%;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0 0 8px 12px rgba(0, 0, 0, 0.5);
+}
+
+.container3 {
+    background-color: orangered;
+    width: 100vw;
+    height: 60vh;
+    position: relative;
+    margin-top: 5px;
+}
+
+.container4 {
+    background-color: yellow;
+    width: 100vw;
+    height: 60vh;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    justify-content: space-around;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card3 {
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    height: 80%;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0 0 8px 12px rgba(0, 0, 0, 0.5);
+}
+
+#azulao{
+    background-color: darkblue;
+}
+
+#marzinho{
+    background-color: lightblue;
+}
+
+footer{
+    background-color: black;
+    width: 100vw;
+    height: 20vh;
+    position: relative;
+}
+
+@media (max-width: 768px){
+    .container1{
+        flex-direction: column;
+    }
+
+    .container4{
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .card2{
+        width: 20%;
+        height: 20%;
+        flex-wrap: wrap;
+    }
 }

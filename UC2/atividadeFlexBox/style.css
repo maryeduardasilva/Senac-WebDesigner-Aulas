@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: yellowgreen;
+    width: 100%;
+    height: 20vh;
+}
+
+
+/* --- Seção 1: dois cards rosa lado a lado --- */
+.secao1 {
+    background-color: red;
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; /*isso centraliza os cards horizontalmente*/
+    gap: 40px;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+
+.card-rosa {
+    background-color: rosybrown;
+    width: 45%;
+    height: 85%;
+}
+
+/* --- Seção 2: quatro cards brancos arredondados --- */
+.secao2 {
+    background-color: mediumturquoise;
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly; /* isso garante que os cards fiquem com espaçamento igual entre eles */
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.card-branco {
+    background-color: #fafafa;
+    width: 18%;
+    height: 80%;
+    border-radius: 14px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18);
+}
+
+/* --- Seção 3: bloco laranja --- */
+.secao3 {
+    background-color: chocolate;
+    width: 100%;
+    height: 60vh;
+    margin-bottom: 10px;
+}
+
+/* --- Seção 4: dois cards coloridos lado a lado --- */
+.secao4 {
+    background-color: yellow;
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.secao4 article {
+    width: 38%;
+    height: 85%;
+}
+
+#azul-escuro {
+    background-color: darkblue;
+}
+
+#verde-agua {
+    background-color: mediumturquoise;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 20vh;
+}
+
